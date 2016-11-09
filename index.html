@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <!--begin of section one -->
+    <section class="section-one">
+        <div class="section-one-div ">
+            <img src="image/1.jpg" alt="img">
+            <div class="section-one-div-content section-div-content">
+                <h2>Always worried about your presentation?</h2>
+                <h2>Here is the right place! </h2>
+                <h2>Scroll Drown for the <span>secret tip</span> to successful presentation! </h2>
+            </div>
+        </div>
+        <a href="#section-two" class="arrow"></a>
+    </section><!--end of section one-->
+
+    <!--begin of section two -->
+    <section class="section-two" id="section-two">
+        <div class="section-two-div">
+            <iframe id="video" src="https://www.youtube.com/embed/WpfpiEo5n_E" frameborder="0" allowfullscreen></iframe>
+            <div class="section-two-question">
+                <h3>After watching the video, what did you notice ?</h3>
+                <h4>Trump used a lot of _____ in his speech! </h4>
+                <div class="answer-container">
+
+                    <ul>
+                        <!--choice one-->
+                        <li id="answer-one">
+                            <input type="radio" id="a-option" name="selector">
+                            <label for="a-option">Simple Words</label>
+                            <div class="check"></div>
+                        </li>
+                        <!--choice two-->
+                        <li id="answer-two">
+                            <input type="radio" id="b-option" name="selector">
+                            <label for="b-option">Eye Movements</label>
+                            <div class="check">
+                            </div>
+                        </li>
+                        <!--choice three-->
+                        <li id="answer-three">
+                            <input type="radio" id="c-option" name="selector">
+                            <label for="c-option">Hand Gestures</label>
+                            <div class="check">
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <a href="#section-three" class="arrow"></a>
+    </section><!--end of section two-->
+
+
+    <section class="section-three" id="section-three">
+        <div class="section-three-div">
+            <iframe id="news"
+                    src="http://www.huffingtonpost.com/entry/talking-with-hands-gestures_us_56afcfaae4b0b8d7c230414e"></iframe>
+            <div class="section-three-div-content section-div-content">
+                <p>Yes! The secret is <span>hand gesture</span>! </p>
+                <p>Read the article and discover the fascinating facts about hand gestures in presentation. </p>
+            </div>
+        </div>
+        <a href="#section-four" class="arrow"></a>
+    </section>
+
+    <section class="section-four" id="section-four">
+        <div class="section-four-div">
+            <div class="section-four-div-content">
+                <h3>Learn to discern and tell the meaning of different hand gestures.</h3>
+                <h3>Just hover over and take your time!</h3>
+            </div>
+
+            <!--begin of section img div-->
+            <div class="section-four-div-image">
+                <div class="overlay img1">
+                    <img src="image/fist-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Fist</h2>
+                        <p>Determination & Commitment.</p>
+                    </div>
+                </div>
+
+                <div class="overlay ">
+                    <img src="image/open-palm-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Open Palm</h2>
+                        <p> Honesty & Sincerity</p>
+                    </div>
+                </div>
+
+                <div class="overlay ">
+                    <img src="image/power-grip-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Power Grip</h2>
+                        <p>Try to control.</p>
+                    </div>
+                </div>
+
+                <div class="overlay ">
+                    <img src="image/precision-grip-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Precision Grip</h2>
+                        <p>Show accuracy.</p>
+                    </div>
+                </div>
+
+                <div class="overlay ">
+                    <img src="image/hand-weave-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Hand Weave</h2>
+                        <p> To persuade how different issues are interlinked.</p>
+                    </div>
+                </div>
+
+                <div class="overlay ">
+                    <img src="image/palm-in-1.jpg" class="section-four-img" alt="overlay">
+                    <div class="overlayinn">
+                        <h2>Palm Back</h2>
+                        <p>Try to persuade.</p>
+                    </div>
+                </div>
+            </div><!--end of section img div-->
+
+        </div>
+        <a href="#section-five" class="arrow"></a>
+    </section>
+
+
+    <!--begin of section five-->
+    <section class="section-five" id="section-five">
+        <div class="section-five-div">
+            <div class="section-five-div-content">
+                <h3>Here are some basic rules to follow while using hand gesture in presentation.</h3>
+                <h3>Click!</h3>
+            </div>
+            <!--begin of rules-->
+            <div class="section-five-div-rule">
+                <!--rule one-->
+                <a href="#" onclick="show('popup1')">Rule One </a>
+                <div class="popup" id="popup1">
+                    <img src="image/2.gif" alt="gif">
+                    <a href="#" onclick="hide('popup1')">Ok!</a>
+                </div>
+                <!--rule two-->
+                <a href="#" onclick="show('popup2')">Rule Two </a>
+                <div class="popup" id="popup2">
+                    <img src="image/3.jpeg" alt="gif">
+                    <a href="#" onclick="hide('popup2')">Ok!</a>
+                </div>
+
+                <!--rule three-->
+                <a href="#" onclick="show('popup3')">Rule Three</a>
+                <div class="popup" id="popup3">
+                    <img src="image/4.gif" alt="gif">
+                    <a href="#" onclick="hide('popup3')">Ok!</a>
+                </div>
+
+                <!--rule four-->
+                <a href="#" onclick="show('popup4')">Rule Four </a>
+                <div class="popup" id="popup4">
+                    <img src="image/5.gif" alt="gif">
+                    <a href="#" onclick="hide('popup4')">Ok!</a>
+                </div>
+
+                <!--rule five-->
+                <a href="#" onclick="show('popup5')">Rule Five </a>
+                <div class="popup" id="popup5">
+                    <img src="image/6.gif" alt="gif">
+                    <a href="#" onclick="hide('popup5')">Ok!</a>
+                </div>
+
+                <!--rule six-->
+                <a href="#" onclick="show('popup5')">Rule Six</a>
+                <div class="popup" id="popup6">
+                    <img src="image/7.gif" alt="gif">
+                    <a href="#" onclick="hide('popup6')">Ok!</a>
+                </div>
+            </div>  <!--end of rules-->
+
+        </div>
+        <a href="#section-six" class="arrow"></a>
+    </section><!--end of section five-->
+
+
+    <!--begin of section six-->
+    <section class="section-six" id="section-six">
+        <div class="section-six-div">
+
+            <div class="section-six-question">
+                <h3>Are you willing to use more hand gesture in future presentation?</h3>
+                <div class="answer-container">
+                    <ul>
+                        <li>
+                            <input type="radio" id="d-option" name="selector">
+                            <label for="d-option">Definitely.</label>
+
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" id="e-option" name="selector">
+                            <label for="e-option">Maybe.</label>
+
+                            <div class="check">
+                                <div class="inside"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" id="f-option" name="selector">
+                            <label for="f-option">No.</label>
+                            <div class="check">
+                                <div class="inside"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="section-six-question">
+                <h3>What hand gesture should you use if you want to show sincerity?</h3>
+                <div class="answer-container">
+                    <ul>
+                        <li>
+                            <input type="radio" id="g-option" name="selector">
+                            <label for="g-option">Fist.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" id="h-option" name="selector">
+                            <label for="h-option">Hand Weave</label>
+                            <div class="check">
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" id="i-option" name="selector">
+                            <label for="i-option">Open Palm</label>
+                            <div class="check">
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="section-six-question">
+                <h3>While I am giving a presentation, I'd better not________.</h3>
+                <div class="answer-container">
+                    <ul>
+                        <li>
+                            <input type="radio" id="j-option" name="selector">
+                            <label for="j-option">use any hand gestures I want.</label>
+
+                            <div class="check"></div>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="k-option" name="selector">
+                            <label for="k-option">use descriptive hand gesture.</label>
+                            <div class="check"></div>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="l-option" name="selector">
+                            <label for="l-option">keep hands in strike zone . </label>
+                            <div class="check">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section><!--end of section six-->
+
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
